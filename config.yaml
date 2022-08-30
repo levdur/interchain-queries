@@ -1,9 +1,9 @@
-efault_chain: stride-testnet
+default_chain: stride-testnet
 chains:
   gaia-testnet:
     key: wallet
     chain-id: GAIA
-    rpc-addr: http://161.97.73.117:23657
+    rpc-addr: http://0.0.0.0:23657
     grpc-addr: http://161.97.73.117:23090
     account-prefix: cosmos
     keyring-backend: test
@@ -18,7 +18,7 @@ chains:
   stride-testnet:
     key: Levdur
     chain-id: STRIDE
-    rpc-addr: http://127.0.0.1:16657
+    rpc-addr: http://0.0.0.0:16657
     grpc-addr: http://0.0.0.0:16090
     account-prefix: stride
     keyring-backend: test
