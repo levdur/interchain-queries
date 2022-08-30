@@ -19,7 +19,7 @@ chains:
     key: Levdur
     chain-id: STRIDE
     rpc-addr: http://0.0.0.0:16657
-    grpc-addr: http://0.0.0.0:16090
+    grpc-addr: http://161.97.73.117:16090
     account-prefix: stride
     keyring-backend: test
     gas-adjustment: 1.2
