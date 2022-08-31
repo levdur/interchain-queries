@@ -8,7 +8,7 @@ chains:
     account-prefix: cosmos
     keyring-backend: test
     gas-adjustment: 1.2
-    gas-prices: 1uatom
+    gas-prices: 0.001uatom
     key-directory: /root/.icq/keys
     debug: false
     timeout: 20s
@@ -23,7 +23,7 @@ chains:
     account-prefix: stride
     keyring-backend: test
     gas-adjustment: 1.2
-    gas-prices: 1ustrd
+    gas-prices: 0.001ustrd
     key-directory: /root/.icq/keys
     debug: false
     timeout: 20s
