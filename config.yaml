@@ -17,7 +17,7 @@ chains:
     sign-mode: direct
   stride-testnet:
     key: Levdur
-    chain-id: STRIDE
+    chain-id: STRIDE-TESTNET-4
     rpc-addr: http://0.0.0.0:16657
     grpc-addr: http://127.0.0.1:16090
     account-prefix: stride
